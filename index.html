@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de valeria</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+            <img src="imgs/user-robot.png" height="30px" width="30px">
+                <span class="logo"></span>
+                <span>Valeria</span>
+            </div>
+            <nav>
+                <strong>
+                <a href="#">Home</a> /
+                <a href="#">Projects</a> /
+                <a href="#">Articles</a> /
+                <a href="#">Contact</a>
+                </strong>
+            </nav>
+        </header>
+
+        <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.container a {
+    color:black
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #55828b;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.hero {
+    text-align: center;
+    padding: 40px 10px;
+    border-bottom: 2px solid black;
+}
+.hero h1 {
+    font-size: 28px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero p {
+    color: gray;
+    font-size: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    gap: 0;
+    border-bottom: 2px solid black;
+}
+.box {
+    border-right: 2px solid black;
+    padding: 15px;
+    min-height: 300px;
+}
+.box:last-child {
+    border-right: none;
+}
+.box h3 {
+    margin-top: 0;
+}
+.projects li {
+    background: #8B8C89;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.278);
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+.reviews {
+    padding: 15px;
+}
+.reviews h3 {
+    text-align: left;
+}
+.review-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.278);
+    background: #9CAEA9;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    background-color: #6F6866;
+}
+
+.container a:hover{
+    text-decoration: underline;
+    color: #414535;
+}
+
+
+.projects a{
+    background-color: #618985;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+
+.projects a:hover{
+    text-decoration: underline;
+    color: #414535;
+}
+
+.projects a{
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+}
+        </style>
+
+        <section class="hero">
+            <h1>Portafolio de Valeria</h1>
+            <p>una persona cualquiera que quiere ser su mejor versión y necesita empleo. </p>
+        </section>
+
+        <div class="grid-container">
+            <div class="box">
+                <h3>Projects</h3>
+                <ul class="projects">
+                    <!--<li>HTML Only Portfolio</li>-->
+                    <br> <br> 
+                     <a href="https://valeriaanunez.github.io/sweetdays2/ ">Pagina Web Anterior</a> <br> <br> <br> <br>
+                    <a href="https://youtube.com/@valerianunez-dd8we?si=kjgQcHYmmzQy4GYr"> Canal de Youtube</a> <br> <br> <br> <br>
+                    <a href="imgs/sneakers.png">Trabajo en photoshop</a>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Experiencia</h3>
+                <p><strong>Técnico en Multimedia</strong><br>Trabajo como asistente de Especialistas en Multimedia en mi iglesia local<br> <a href="https://www.facebook.com/share/1Bujhk9Bxm/?mibextid=qi2Omg">Visita su cuenta de facebook</a></p>
+                <h3>Habilidades Profesionales en informática</h3>
+                <ul>
+                    <li>Conocedora de lenguajes de programación como Java y JavaScript.</li>
+                    <li>Diseñadora Web</li>
+                    <li>Edición de video</li>
+                    <li>Conocimiento en photoshop</li>
+                    <li>Experiencia en contenido en redes sociales</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Educación</h3>
+                <p>Cursando informática en Instituo Departamental de Oriente</p>
+                <h4>Cursos completados:</h4>
+                <ul>
+                    <li>Inglés</li>
+                    <li>Cursando Francés</li>
+                    <li>Taekwondo</li>
+                    <li>Natación</li>
+                    <li>Introducción a Piano</li>
+                    <li>Manejo el Ukelele de manera autodidacta</li>
+                    <li>Ballet</li>
+                    <li>Teatro</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="reviews">
+            <h3>Reseñas de mi persona</h3>
+            <div class="review-boxes">
+                <div class="review">
+                    <p>Sos una persona perseverante, también sos inteligente, te gusta aprender cosas nuevas y datos curioso, soy una persona que es accesible respecto a los trabajos y aceptas ideas.</p>
+                    <p><strong>Ashle Julieth</strong><br>Amiga cercana</p>
+                </div>
+                <div class="review">
+                    <p>Mas a todos los que le recibieron, a los que creen en su nombre, les dio potestad de ser hechos hijos de Dios.</p>
+                    <p><strong>Dios</strong><br>Juan 1:12 </p>
+                </div>
+                <div class="review">
+                    <p>Me considero una persona dinámica, activa, creativa, curiosa, simplemente compleja y complejamente simple al mismo tiempo.</p>
+                    <p><strong>Valeria Núñez</strong><br>Mi persona</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© all rights to valeria núñez</p>
+        </footer>
+    </div>
+</body>
+</html>
